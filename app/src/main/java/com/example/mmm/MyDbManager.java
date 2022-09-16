@@ -31,6 +31,7 @@ public class MyDbManager {
         ContentValues cv = new ContentValues();
         cv.put(MyConstants.FIO, fio);
         cv.put(MyConstants.DATE, date);
+        //www
         cv.put(MyConstants.WHAT_BUY, what_buy);
         db.insert(MyConstants.TABLE_NAME, null, cv);
     }
